@@ -19,11 +19,17 @@ Features
 Installation
 
 1. Clone the Repository
+
 2.Install Dependencies
+
 pip install -r requirements.txt
+
 python -m spacy download en_core_web_sm
+
 3. Run the Application
+
 streamlit run resume_match.py
+
 Usage
 
 Upload a resume (PDF/DOCX) and a job description (PDF/DOCX).
